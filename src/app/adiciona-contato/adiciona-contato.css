@@ -1,0 +1,65 @@
+/* Espaçamento em volta do conteúdo */
+body {
+  margin: 5px;
+  background-color: #f8f9fa; /* cinza claro */
+  font-family: Arial, sans-serif;
+}
+
+/* Estiliza o título principal */
+h1 {
+  text-align: center;
+  margin-bottom: 5px;
+  color: #10d87b
+}
+
+/* Estiliza os labels e inputs */
+form div {
+  margin-bottom: 5px;
+}
+
+label {
+  font-weight: bold;
+}
+
+/* Campos de texto e select com visual Bootstrap-like */
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+/* Botão de adicionar */
+input[type="button"] {
+  background-color: #00ce6e;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="button"]:hover {
+  background-color: #00ff73;
+}
+
+/* Tabela de contatos */
+table {
+  width: 100%;
+  margin-top: 10px;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  border: 1px solid #dee2e6;
+  text-align: left;
+}
+
+th {
+  background-color: #10d87b;
+  color:#f8f8f8
+}
